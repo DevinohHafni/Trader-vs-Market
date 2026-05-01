@@ -10,26 +10,12 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook notebook.ipynb
 Run all cells top to bottom
 
-## Project Structure
-primetrade_assignment/
 
-├── data/
+<img width="2083" height="2358" alt="full_analysis" src="https://github.com/user-attachments/assets/cf9d7e1a-89de-4cc1-b4b9-fe783f33a096" />
+<img width="2383" height="740" alt="clusters" src="https://github.com/user-attachments/assets/ae441532-5265-4c52-984d-bd8fe70fce6f" />
+<img width="1200" height="600" alt="elbow" src="https://github.com/user-attachments/assets/a30efdee-57d2-4b82-a1b9-8c73fd9a948c" />
 
-│   ├── sentiment.csv
 
-│   └── trades.csv
-
-├── charts/
-
-│   ├── full_analysis.png
-
-│   ├── elbow.png
-
-│   └── clusters.png
-
-├── notebook.ipynb
-
-└── README.md
 
 ## Methodology
 - Merged 211,224 trades with Fear/Greed sentiment index by date
@@ -53,3 +39,24 @@ primetrade_assignment/
 ## Bonus
 - Random Forest classifier: 95% accuracy
 - K-Means clustering: 4 archetypes (Blown Account, High Risk Gamblers, Power Traders, Steady Winners)
+
+- ## Project Structure
+primetrade_assignment/
+
+├── data/
+
+│   ├── sentiment.csv
+
+│   └── trades.csv
+
+├── charts/
+
+│   ├── full_analysis.png
+
+│   ├── elbow.png
+
+│   └── clusters.png
+
+├── notebook.ipynb
+
+└── README.md
