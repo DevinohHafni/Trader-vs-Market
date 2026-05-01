@@ -12,14 +12,23 @@ Run all cells top to bottom
 
 ## Project Structure
 primetrade_assignment/
+
 ├── data/
+
 │   ├── sentiment.csv
+
 │   └── trades.csv
+
 ├── charts/
+
 │   ├── full_analysis.png
+
 │   ├── elbow.png
+
 │   └── clusters.png
+
 ├── notebook.ipynb
+
 └── README.md
 
 ## Methodology
